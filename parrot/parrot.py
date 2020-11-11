@@ -7,28 +7,3 @@ from __future__ import (
 )
 
 
-class Parrot(object):
-    """This is a description of the class."""
-
-    #: An example class variable.
-    aClassVariable = True
-
-    def __init__(self, argumentName, anOptionalArg=None):
-        """Initialization method.
-
-        :param argumentName: an example argument.
-        :type argumentName: string
-        :param anOptionalArg: an optional argument.
-        :type anOptionalArg: string
-        :returns: New instance of :class:`Parrot`
-        :rtype: Parrot
-
-        """
-
-        self.instanceVariable1 = argumentName
-
-        if self.aClassVariable:
-            print('Hello')
-
-        if anOptionalArg:
-            print('anOptionalArg: %s' % anOptionalArg)

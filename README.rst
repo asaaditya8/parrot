@@ -15,7 +15,7 @@ parrot
 .. image:: https://pypip.in/d/parrot/badge.png
         :target: https://crate.io/packages/parrot?version=latest
 
-``parrot`` - Thi is aimed at converting transciption of spoken english to written english.
+``parrot`` - Thi is aimed at converting transcription of spoken english to written english.
 
 Features
 --------
