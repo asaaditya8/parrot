@@ -8,7 +8,7 @@ from __future__ import (
     unicode_literals
 )
 
-from .. import parrot
+from .. import core
 
 from . import unittest
 
