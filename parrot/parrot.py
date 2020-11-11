@@ -18,7 +18,7 @@ class DataObj:
         return str
 
 
-class IndentifierBase:
+class IdentifierBase:
     def __init__(self):
         pass
 
