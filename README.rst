@@ -49,6 +49,24 @@ tests           .. code-block:: bash
                     $ python setup.py test
 ==============  ==========================================================
 
+Example Usage
+-------------
+
+    >>> class MyRule(RuleBase):
+    >>>     def apply(self, x):
+    >>>         # write your function here
+
+    >>> data_obj = DataObj(data_str)
+    >>>
+    >>> rule1 = MyRule()
+    >>> rule2 = AnotherRule()
+    >>> chain = Sequential([
+    >>>                       rule1,
+    >>>                       rule2
+    >>>                    ])
+    >>>
+    >>> result = chain(data_obj)
+
 .. _BSD: http://opensource.org/licenses/BSD-3-Clause
 .. _Documentation: http://parrot.readthedocs.org/en/latest/
 .. _API: http://parrot.readthedocs.org/en/latest/api.html
