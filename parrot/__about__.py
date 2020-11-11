@@ -1,0 +1,8 @@
+__title__ = 'parrot'
+__package_name__ = 'parrot'
+__author__ = 'Aaditya Singh'
+__description__ = 'Thi is aimed at converting transciption of spoken english to written english.'
+__email__ = 'aaditya.singh.met16@iitbhu.ac.in'
+__version__ = '0.1.0'
+__license__ = 'BSD'
+__copyright__ = 'Copyright 2020 Aaditya Singh'
