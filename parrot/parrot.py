@@ -7,3 +7,14 @@ from __future__ import (
 )
 
 
+class DataObj:
+
+    def __init__(self, str):
+        self.docs = None
+        self.span = None
+        str = self.preprocess(str)
+
+    def preprocess(self, str):
+        return str
+
+
