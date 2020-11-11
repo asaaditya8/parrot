@@ -18,3 +18,10 @@ class DataObj:
         return str
 
 
+class IndentifierBase:
+    def __init__(self):
+        pass
+
+    def __call__(self, *args, **kwargs):
+        pass
+
